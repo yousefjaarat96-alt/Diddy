@@ -1,0 +1,19 @@
+body{
+  background-color:purple;
+}
+#jkl{
+  border:5px solid;
+  width:200px;
+  height:300px;
+  background-color: blue;
+  animation:5s linear infinite running myrotate ;
+}
+@keyframes myrotate{
+  100%{transform:rotatez(360deg)}
+}
+#diddy{
+border:5px solid;
+width:200px;
+height:300px;
+animation:3s linear infinite running myrotate;
+}
